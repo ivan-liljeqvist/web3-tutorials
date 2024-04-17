@@ -1,5 +1,6 @@
 import { ethers } from "ethers";
 
+// don't worry this API key is dead
 let provider = new ethers.JsonRpcProvider("https://site1.moralis-nodes.com/base/75c92462de064975bb523f0f3c30f7b3")
 
 let block = await provider.getBlockNumber();
